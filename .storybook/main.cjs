@@ -12,11 +12,4 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  viteFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/hnqg-ds/';
-    }
-
-    return config;
-  },
 };
